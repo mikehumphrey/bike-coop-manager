@@ -39,3 +39,6 @@ testem.log
 Thumbs.db
 
 .env
+packages/common/dist/tsconfig.tsbuildinfo
+packages/app/package-lock.json
+packages/app/next-env.d.ts

@@ -25,6 +25,7 @@
     "typeorm:migration:run": "f(){ ./node_modules/typeorm/cli.js migration:run --config ormconfig.json; }; f"
   },
   "dependencies": {
+    "@bikecoop/common": "file:packages/common",
     "@hapi/joi": "^17.1.1",
     "@nestjs/common": "^7.6.15",
     "@nestjs/config": "^0.6.3",
